@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path='/nav-mini'element={<Accueil/>}/>
       <Route path='/Galerie'element={<Galerie/>}/>
-      <Route path='*'element={<Erreur/>}/>
+      <Route path='/Erreur'element={<Erreur/>}/>
       <Route path='/Contact'element={<Contact/>}/>
       <Route path='/Formation'element={<Formation/>}/>
       <Route path='/Service'element={<Service/>}/>
